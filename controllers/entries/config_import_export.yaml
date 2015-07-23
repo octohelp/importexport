@@ -1,0 +1,15 @@
+# ===================================
+#  Import/Export Behavior Config
+# ===================================
+
+import:
+    title: Import entries
+    modelClass: Acme\Importexport\Models\EntriesImport
+    list: $/acme/importexport/models/entries/columns.yaml
+    form: $/acme/importexport/models/entries/fields.yaml
+
+export:
+    title: Export entries
+    modelClass: Acme\Importexport\Models\EntriesExport
+    list: $/acme/importexport/models/entries/columns.yaml
+    form: $/acme/importexport/models/entries/fields.yaml

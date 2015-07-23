@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Entry
+
+# Model Form Field configuration
+form: $/acme/importexport/models/entries/fields.yaml
+
+# Model Class name
+modelClass: Acme\Importexport\Models\Entries
+
+# Default redirect location
+defaultRedirect: acme/importexport/entries
+
+# Create page
+create:
+    title: Create Entry
+    redirect: acme/importexport/entries/update/:id
+    redirectClose: acme/importexport/entries
+
+# Update page
+update:
+    title: Edit Entry
+    redirect: acme/importexport/entries
+    redirectClose: acme/importexport/entries
+
+# Preview page
+preview:
+    title: Preview Entry

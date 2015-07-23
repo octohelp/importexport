@@ -1,0 +1,28 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+        id:
+            label: ID
+            disabled: true
+            span: auto
+        name:
+            label: Name
+            span: auto
+        age:
+            label: Age
+            type: number
+            span: auto
+        dob:
+            label: Date of birth
+            type: datepicker
+            mode: date
+            span: auto
+        occupation:
+            label: Occupation
+            span: auto
+        city:
+            label: City
+            type: dropdown
+            span: auto
