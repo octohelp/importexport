@@ -1,5 +1,5 @@
 <?php
-namespace Acme\Importexport\Models;
+namespace Octohelp\Importexport\Models;
 
 class EntriesExport extends \Backend\Models\ExportModel {
     public function exportData($columns, $sessionKey = null) {

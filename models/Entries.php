@@ -1,4 +1,4 @@
-<?php namespace Acme\Importexport\Models;
+<?php namespace Octohelp\Importexport\Models;
 
 use Model;
 
@@ -11,7 +11,7 @@ class Entries extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'acme_importexport_entries';
+    public $table = 'octohelp_importexport_entries';
 
     /**
      * @var array Guarded fields

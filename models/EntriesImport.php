@@ -1,5 +1,5 @@
 <?php
-namespace Acme\Importexport\Models;
+namespace Octohelp\Importexport\Models;
 class EntriesImport extends \Backend\Models\ImportModel
 {
     protected $rules = [];

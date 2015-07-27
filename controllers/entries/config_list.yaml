@@ -3,16 +3,16 @@
 # ===================================
 
 # Model List Column configuration
-list: $/acme/importexport/models/entries/columns.yaml
+list: $/octohelp/importexport/models/entries/columns.yaml
 
 # Model Class name
-modelClass: Acme\Importexport\Models\Entries
+modelClass: Octohelp\Importexport\Models\Entries
 
 # List Title
 title: Manage Entries
 
 # Link URL for each record
-recordUrl: acme/importexport/entries/update/:id
+recordUrl: octohelp/importexport/entries/update/:id
 
 # Message to display if the list is empty
 noRecordsMessage: backend::lang.list.no_records

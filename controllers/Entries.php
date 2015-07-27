@@ -1,4 +1,4 @@
-<?php namespace Acme\Importexport\Controllers;
+<?php namespace Octohelp\Importexport\Controllers;
 
 use BackendMenu;
 use Backend\Classes\Controller;
@@ -22,6 +22,6 @@ class Entries extends Controller
     {
         parent::__construct();
 
-        BackendMenu::setContext('Acme.Importexport', 'importexport', 'entries');
+        BackendMenu::setContext('Octohelp.Importexport', 'importexport', 'entries');
     }
 }

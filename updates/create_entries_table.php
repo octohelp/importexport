@@ -1,4 +1,4 @@
-<?php namespace Acme\Importexport\Updates;
+<?php namespace Octohelp\Importexport\Updates;
 
 use Illuminate\Database\Schema\Blueprint;
 use Schema;
@@ -9,7 +9,7 @@ class CreateEntriesTable extends Migration
 
     public function up()
     {
-        Schema::create('acme_importexport_entries', function(Blueprint $table)
+        Schema::create('octohelp_importexport_entries', function(Blueprint $table)
         {
             $table->engine = 'InnoDB';
             $table->increments('id');
@@ -24,7 +24,7 @@ class CreateEntriesTable extends Migration
 
     public function down()
     {
-        Schema::dropIfExists('acme_importexport_entries');
+        Schema::dropIfExists('octohelp_importexport_entries');
     }
 
 }

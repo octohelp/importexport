@@ -6,25 +6,25 @@
 name: Entry
 
 # Model Form Field configuration
-form: $/acme/importexport/models/entries/fields.yaml
+form: $/octohelp/importexport/models/entries/fields.yaml
 
 # Model Class name
-modelClass: Acme\Importexport\Models\Entries
+modelClass: Octohelp\Importexport\Models\Entries
 
 # Default redirect location
-defaultRedirect: acme/importexport/entries
+defaultRedirect: octohelp/importexport/entries
 
 # Create page
 create:
     title: Create Entry
-    redirect: acme/importexport/entries/update/:id
-    redirectClose: acme/importexport/entries
+    redirect: octohelp/importexport/entries/update/:id
+    redirectClose: octohelp/importexport/entries
 
 # Update page
 update:
     title: Edit Entry
-    redirect: acme/importexport/entries
-    redirectClose: acme/importexport/entries
+    redirect: octohelp/importexport/entries
+    redirectClose: octohelp/importexport/entries
 
 # Preview page
 preview:

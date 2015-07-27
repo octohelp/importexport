@@ -1,4 +1,4 @@
-<?php namespace Acme\Importexport;
+<?php namespace Octohelp\Importexport;
 
 use System\Classes\PluginBase;
 
@@ -18,7 +18,7 @@ class Plugin extends PluginBase
         return [
             'name'        => 'importexport',
             'description' => 'No description provided yet...',
-            'author'      => 'acme',
+            'author'      => 'octohelp',
             'icon'        => 'icon-leaf'
         ];
     }
