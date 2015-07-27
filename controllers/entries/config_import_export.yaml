@@ -12,4 +12,4 @@ export:
     title: Export entries
     modelClass: Acme\Importexport\Models\EntriesExport
     list: $/acme/importexport/models/entries/columns.yaml
-    form: $/acme/importexport/models/entries/fields.yaml
+#    form: $/acme/importexport/models/entries/fields.yaml
