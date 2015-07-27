@@ -6,10 +6,9 @@ import:
     title: Import entries
     modelClass: Octohelp\Importexport\Models\EntriesImport
     list: $/octohelp/importexport/models/entries/columns.yaml
-    form: $/octohelp/importexport/models/entries/fields.yaml
 
 export:
     title: Export entries
     modelClass: Octohelp\Importexport\Models\EntriesExport
     list: $/octohelp/importexport/models/entries/columns.yaml
-#    form: $/octohelp/importexport/models/entries/fields.yaml
+    # useList: true
