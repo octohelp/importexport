@@ -1,5 +1,6 @@
 <?php
 namespace Octohelp\Importexport\Models;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 class EntriesImport extends \Backend\Models\ImportModel
 {
     protected $rules = [];
@@ -8,9 +9,15 @@ class EntriesImport extends \Backend\Models\ImportModel
         foreach ($results as $row => $data) {
 
             try {
-                $subscriber = new Entries;
-                $subscriber->fill($data);
-                $subscriber->save();
+                $entry = Entries::findOrFail($data['id']);
+                $entry->fill($data);
+                $entry->save();
+                $this->logUpdated();
+            }
+            catch (ModelNotFoundException $ex) {
+                $entry = new Entries;
+                $entry->fill($data);
+                $entry->save();
                 $this->logCreated();
             }
             catch (\Exception $ex) {
