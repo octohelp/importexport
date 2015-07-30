@@ -3,7 +3,7 @@
 # ===================================
 
 # Model List Column configuration
-list: $/octohelp/importexport/models/entries/columns.yaml
+list: $/octohelp/importexport/models/entry/columns.yaml
 
 # Model Class name
 modelClass: Octohelp\Importexport\Models\Entry

@@ -6,7 +6,7 @@
 name: Entry
 
 # Model Form Field configuration
-form: $/octohelp/importexport/models/entries/fields.yaml
+form: $/octohelp/importexport/models/entry/fields.yaml
 
 # Model Class name
 modelClass: Octohelp\Importexport\Models\Entry
