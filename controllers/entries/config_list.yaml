@@ -6,7 +6,7 @@
 list: $/octohelp/importexport/models/entries/columns.yaml
 
 # Model Class name
-modelClass: Octohelp\Importexport\Models\Entries
+modelClass: Octohelp\Importexport\Models\Entry
 
 # List Title
 title: Manage Entries

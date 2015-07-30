@@ -9,7 +9,7 @@ name: Entry
 form: $/octohelp/importexport/models/entries/fields.yaml
 
 # Model Class name
-modelClass: Octohelp\Importexport\Models\Entries
+modelClass: Octohelp\Importexport\Models\Entry
 
 # Default redirect location
 defaultRedirect: octohelp/importexport/entries

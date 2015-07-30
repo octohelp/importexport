@@ -9,13 +9,13 @@ class EntriesImport extends \Backend\Models\ImportModel
         foreach ($results as $row => $data) {
 
             try {
-                $entry = Entries::findOrFail($data['id']);
+                $entry = Entry::findOrFail($data['id']);
                 $entry->fill($data);
                 $entry->save();
                 $this->logUpdated();
             }
             catch (ModelNotFoundException $ex) {
-                $entry = new Entries;
+                $entry = new Entry;
                 $entry->fill($data);
                 $entry->save();
                 $this->logCreated();
